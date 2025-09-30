@@ -1,39 +1,6 @@
 # Ucak Rezervasyon Sistemi
 
 Bu proje, C# ve ASP.NET Core kullanılarak geliştirilmiş çok katmanlı bir uçak rezervasyon sistemidir.
-UcakRezervasyon/                   <-- Solution root
-│
-├─ src/
-│   ├─ Api/                         <-- ASP.NET Core Web API projesi
-│   │   ├─ Controllers/
-│   │   ├─ appsettings.json
-│   │   └─ UcakRezervasyon.Api.csproj
-│   │
-│   ├─ Business/                    <-- Business logic / Servisler
-│   │   ├─ Services/
-│   │   │   ├─ AuthService.cs
-│   │   │   ├─ UserService.cs
-│   │   ├─ Interfaces/
-│   │   │   ├─ IAuthService.cs
-│   │   │   ├─ IUserService.cs
-│   │   └─ UcakRezervasyon.Business.csproj
-│   │
-│   ├─ DataAccess/                  <-- DB ve repository katmanı
-│   │   ├─ Repositories/
-│   │   │   ├─ IUserRepository.cs
-│   │   │   └─ GenericRepository.cs
-│   │   ├─ UcakRezervasyon.DataAccess.csproj
-│   │
-│   └─ Entities/                    <-- Model ve entity katmanı
-│       ├─ Models/
-│       │   ├─ User.cs
-│       │   ├─ Flight.cs
-│       │   └─ Reservation.cs
-│       └─ UcakRezervasyon.Entities.csproj
-│
-├─ README.md                        <-- Proje açıklama dosyası
-└─ UcakRezervasyon.sln              <-- Visual Studio Solution
-
 
 ## Proje Katmanları
 
